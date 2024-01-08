@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
+import { GlobalContext } from '../Context/GlobalState';
 
 const AddTransaction = () => {
     const[text, setText] = useState('');
     const[amount, setAmount] = useState(0);
-
-
 
   return (
     <div>
